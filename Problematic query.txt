@@ -1,0 +1,5 @@
+Query id - 
+100 - $5 items - need price info
+28053 - comferters - query normalization - spelling mistake 
+30517 -  cuadros electricos - different langugae
+111545 - wife beatters mens 4xl big and tall - domain specific spelling
