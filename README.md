@@ -4,7 +4,7 @@ This repository contains two Jupyter notebooks that demonstrate a complete **hyb
 
 ---
 
-## ✅ Notebooks Included
+## Notebooks Included
 
 ### 1. `Encoder+Reranker.ipynb`
 End-to-end hybrid retrieval workflow:
