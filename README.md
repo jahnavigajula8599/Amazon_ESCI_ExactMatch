@@ -1,13 +1,31 @@
-A full walkthrough of a hybrid retrieval workflow:
+# Encoder + Reranker Retrieval Pipeline
 
-Load and preprocess product/example data
+This repository contains two Jupyter notebooks that demonstrate a complete **hybrid retrieval pipeline** using an encoder model for dense embeddings and a reranker model for refining search relevance. It serves as a lightweight experimentation environment for retrieval, reranking, and baseline RAG-style workflows.
 
-Generate embeddings using an encoder model
+---
 
-Build an in-memory vector store
+## ✅ Notebooks Included
 
-Perform similarity search
+### 1. `Encoder+Reranker.ipynb`
+End-to-end hybrid retrieval workflow:
 
-Apply a reranker to refine top-K results
+- Load and preprocess datasets  
+- Generate embeddings using an encoder model  
+- Build an in-memory vector store  
+- Run similarity search  
+- Apply a reranker for improved ranking  
+- Compare retrieval quality before vs after reranking  
 
-Compare retrieval quality before and after reranking
+This is the primary reference notebook for retrieval experimentation.
+
+---
+
+### 2. `Playground.ipynb`
+A scratchpad notebook used for:
+
+- Exploring datasets  
+- Checking shapes, distributions, missing values  
+- Generating small subsets for quick tests  
+- Running lightweight experiments before integrating them into the main pipeline  
+---
+
